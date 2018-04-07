@@ -172,7 +172,7 @@ import VueLocalStorage from 'vue-localstorage';
 import Panels from '../panels/all.vue';
 import VueSocketio from 'vue-socket.io';
 
-Vue.use(VueSocketio, 'http://localhost:8081');
+Vue.use(VueSocketio, 'https://kessel-prototype.40d.io:8081');
 Vue.use(VueLocalStorage);
 
 export default {
