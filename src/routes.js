@@ -4,5 +4,6 @@ export default {
   '/cube': 'cube',
   '/radar': 'Radar',
   '/light-array': 'Light-Array',
-  '/generator': 'Generator'
+  '/generator': 'Generator',
+  '/uiComponents': 'uiComponents'
 }
