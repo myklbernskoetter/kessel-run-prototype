@@ -74,4 +74,18 @@ body {
 				-webkit-transform: rotate(0deg);
 		}
 }
+
+@keyframes background-grid {
+  0% {
+    transform: translateY(-5rem) scale(0);
+  }
+
+  50% {
+    transform: translateY(0) scale(2);
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
 </style>

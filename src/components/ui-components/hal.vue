@@ -1,8 +1,8 @@
 <template lang="html">
   <div class="component-wrapper">
     <div class="hal-wrapper">
-      <span class="brow"></span>
-      <span class="eye"></span>
+      <!-- <span class="brow"></span>
+      <span class="eye"></span> -->
     </div>
   </div>
 </template>
@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="scss">
 .hal-wrapper {
   position: absolute;
   top: 1rem;

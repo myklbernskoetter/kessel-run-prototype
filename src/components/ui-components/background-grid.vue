@@ -72,13 +72,13 @@ export default {
     color: #7ad4f8;
 
     span {
-      transform: scale(0);
-      animation: scaleUp 125ms linear forwards;
+      transform: scale(0) translateY(-5rem);
+      animation: background-grid 250ms linear forwards;
       @include increment-animation(.05, 35);
     }
 
     span {
-      opacity: .4;
+      opacity: .6;
     }
   }
 </style>

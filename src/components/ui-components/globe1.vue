@@ -2,7 +2,7 @@
   <div class="component-wrapper">
     <div class="scene">
       <div class="wrapper">
-        <div class="globe globe1">
+        <div class="globe">
           <span class="ring"></span>
           <span class="ring"></span>
           <span class="ring"></span>
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @keyframes roundandround {
+  @keyframes spin {
     to {
       transform:rotateY(-360deg);
     }
@@ -61,9 +61,8 @@ export default {
     height: 70%;
     margin:0 auto;
     transform-style:  preserve-3d;
-    animation: roundandround 25s 0ms infinite linear;
+    animation: spin 25s 0ms infinite linear;
   }
-.globe1 {
   .ring {
     position: absolute;
     top: 0;
@@ -71,7 +70,7 @@ export default {
     width: 100%;
     height: 100%;
     border:3px;
-    border-style: dashed;
+    border-style: dotted;
     border-radius: 50%;
     color:#7ad4f8;
     animation: show 0.75s forwards ease-in-out;
@@ -105,5 +104,4 @@ export default {
     transform: rotateY(160deg);
     animation-delay: 0s;
   }
-}
 </style>

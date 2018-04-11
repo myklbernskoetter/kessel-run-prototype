@@ -33,7 +33,18 @@ export default {
 <style lang="scss" scoped>
 
 // Screen frames
+
 .frames {
+  button {
+    background-color: transparent;
+    color: #fff;
+    z-index: 2;
+
+    &:hover,
+    &:focus {
+      color: #7ad4f8;
+    }
+  }
   --frame-spacing: 3.5rem;
   --standard-frame-height: 5rem;
   --standard-frame-width: .2rem;

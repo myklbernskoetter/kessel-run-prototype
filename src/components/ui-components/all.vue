@@ -1,6 +1,7 @@
 <template lang="html">
   <div class="ui-components">
-    <app-hal></app-hal>
+    <!-- <app-hal></app-hal> -->
+    <app-text-frame></app-text-frame>
     <app-dnaSpinner></app-dnaSpinner>
     <app-frames></app-frames>
     <app-target1></app-target1>
@@ -16,6 +17,7 @@ import target1 from './target1.vue';
 import globe1 from './globe1.vue';
 import grid from './background-grid.vue';
 import hal from './hal.vue';
+import textFrame from './text-frame.vue';
 
 export default {
   components: {
@@ -25,6 +27,7 @@ export default {
     'app-globe1': globe1,
     'app-background-grid': grid,
     'app-hal': hal,
+    'app-text-frame': textFrame,
  }
 }
 </script>
