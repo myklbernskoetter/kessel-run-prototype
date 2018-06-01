@@ -97,7 +97,7 @@ export default {
       position: absolute;
       top: 0;
       display: block;
-      width: 1rem;
+      width: .5rem;
       height: 10rem;
       border: .1rem solid #fff;
     }

@@ -39,6 +39,7 @@ export default {
 
   .scene {
     position: absolute;
+    top: 30rem;
     left: 5rem;
     width: 20rem;
     height: 20rem;

@@ -159,7 +159,7 @@
 }
 
 .cube {
-	width: 50rem;
+	width: 30rem;
   margin: 0 auto;
 	transform-style: preserve-3d;
   transform: rotate3d(0, 0, 0, 0);
@@ -179,8 +179,8 @@
 
 .cube > div {
 	position: absolute;
-	width: 50rem;
-	height: 50rem;
+	width: 30rem;
+	height: 30rem;
 }
 
 .face {
